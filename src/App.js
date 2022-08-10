@@ -10,8 +10,9 @@ function App() {
   return (
     <div className="App">
       <Typography variant="h3"
-        style={{
-          margin: '20px auto'
+        sx={{
+          margin: '20px auto',
+          color: 'rgb(84, 127, 163)'
         }}
       >
         Library App

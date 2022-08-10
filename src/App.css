@@ -2,6 +2,22 @@
   text-align: center;
 }
 
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+}
+
+.card-content > div {
+  text-align: left;
+  border: '1px solid rgb(166, 195, 219)';
+  width: 100%;
+  margin: 10px 0;
+
+}
+
 TableRow {
-  color: rgb(166, 195, 219) !important;
+  color: rgb(84, 127, 163) !important;
 }
